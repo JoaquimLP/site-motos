@@ -4,7 +4,7 @@ import Home from './component/pages/Home';
 
 function App() {
   return (
-    <div>
+    <div className='bg-color'>
         <NavBar />
         <Home />
     </div>

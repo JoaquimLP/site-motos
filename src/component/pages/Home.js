@@ -1,10 +1,16 @@
 import Banner from "../pages-home/Banner";
+import Destaque from "../pages-home/Destaque";
 
 function Home() {
     return (
-        <header className="header">
-            <Banner />
-        </header>
+        <div>
+            <header className="header">
+                <Banner />
+            </header>
+            <div className="my-2">
+                <Destaque />
+            </div>
+        </div>
     )
 }
 
