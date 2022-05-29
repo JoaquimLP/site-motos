@@ -7,8 +7,12 @@
     --font-action: "Muli", serif;
 }
 
-.bg-color {
-  background-color: black;
+body {
+  background-color: black !important;
+}
+
+.color-card {
+  background-color: black !important;
 }
 
 .header {
@@ -78,4 +82,9 @@
       transform: translateY(0) rotateY(0);
       opacity: 1;
     }
+}
+
+.image-card {
+  width: 100%;
+  height: 100%;
 }
